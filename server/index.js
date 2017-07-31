@@ -1,6 +1,6 @@
 'use strict';
 
-// set default node environment to develop
+// set default node environment to development
 var env = process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
 // export the application
