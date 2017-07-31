@@ -3,11 +3,13 @@ const http = require('http');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const app = express();
+const router = require('./api/routes').default;
 
 
 // app setup
 app.use(morgan('dev'));
 app.use(bodyParser.json({ type: '*/*' }));
+router(app);
 
 // server setup
 const port = process.env.PORT || 3090;
