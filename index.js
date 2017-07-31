@@ -3,7 +3,7 @@ const http = require('http');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const app = express();
-const router = require('./api/routes').default;
+const router = require('./server/api/routes').default;
 
 
 // app setup
