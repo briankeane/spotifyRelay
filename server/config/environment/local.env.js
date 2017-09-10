@@ -1,0 +1,7 @@
+module.exports = 
+{
+  SPOTIFY_CLIENT_ID: '6b1103d091514d50b47c24ceb147b3dc',
+  SPOTIFY_CLIENT_SECRET: 'dd83e85e536540b38c0ee6a7b802d393'
+}
+
+
